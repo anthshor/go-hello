@@ -1,6 +1,8 @@
 language: go
 jobs:
   include:
+  # need to compile it live so i can run it
   - stage: test
     script:
+    - bash go build
     - bash tests/test1.sh
