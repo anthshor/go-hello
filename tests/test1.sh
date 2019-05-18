@@ -2,7 +2,7 @@
 
 result=`./go-hello`
 
-if [ $result == "hello" ]; then 
+if [ $result == "hello!" ]; then 
   exit 0
 else
   exit 1
